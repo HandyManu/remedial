@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "http://localhost:1573",
+    origin: "exp://10.10.3.95:8081",
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
 }));
